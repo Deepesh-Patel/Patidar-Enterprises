@@ -306,7 +306,6 @@ img{
 .container{
     width: 100%;
     height: 100%;
-    margin-left: 246px;
 }
 
 .box{
@@ -314,6 +313,7 @@ img{
 }
 
 .box-1{
+    margin-left: 250px;
     margin-right: 8px;
 }
 
@@ -330,7 +330,7 @@ img{
 }
 
 /* teams section styling */
-/*.teams .title::after{
+/* .teams .title::after{
     content: "who with me";
 }
 .teams .carousel .card{
@@ -390,7 +390,7 @@ img{
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
-}*/
+} */
 
 /* contact section styling */
 .contact .title::before{
@@ -516,12 +516,52 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    .container{
+        width: 100%;
+        height: 100%;
+    }   
+    .box{
+        display: inline;
+    }   
+    .box-1{
+        margin-left: 147px;
+        margin-right: 8px;
+    }   
+    .box-2{
+        margin-right: 8px;
+    }   
+    .box-3{
+        margin-right: 8px;
+    }   
+    .box-4{
+        margin-right: 8px;
+    }
 }
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
     }
-}
+   .container{
+        width: 100%;
+        height: 100%;
+    }   
+    .box{
+        display: inline;
+    }   
+    .box-1{
+        margin-left: 147px;
+        margin-right: 8px;
+    }   
+    .box-2{
+        margin-right: 8px;
+    }   
+    .box-3{
+        margin-right: 8px;
+    }   
+    .box-4{
+        margin-right: 8px;
+    }
+} 
 @media (max-width: 947px){
     .menu-btn{
         display: block;
@@ -565,6 +605,26 @@ footer span a:hover{
     .max-width{
         max-width: 930px;
     }
+    .container{
+        width: 100%;
+        height: 100%;
+    }   
+    .box{
+        display: inline;
+    }   
+    .box-1{
+        margin-left: 143px;
+        margin-right: 8px;
+    }   
+    .box-2{
+        margin-right: 8px;
+    }   
+    .box-3{
+        margin-right: 8px;
+    }   
+    .box-4{
+        margin-right: 8px;
+    }
     .about .about-content .column{
         width: 100%;
     }
@@ -602,6 +662,31 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .box{
+        display: inline;
+    }
+    
+    .box-1{
+        margin-left: 100px;
+        margin-right: 8px;
+    }
+    
+    .box-2{
+        margin-right: 8px;
+    }
+    
+    .box-3{
+        margin-right: 8px;
+    }
+    
+    .box-4{
+        margin-right: 8px;
+    }
 }
 @media (max-width: 500px) {
     .home .home-content .text-2{
@@ -631,5 +716,30 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .box{
+        display: inline;
+    }
+    
+    .box-1{
+        margin-left: 65px;
+        margin-right: 8px;
+    }
+    
+    .box-2{
+        margin-right: 8px;
+    }
+    
+    .box-3{
+        margin-right: 8px;
+    }
+    
+    .box-4{
+        margin-right: 8px;
     }
 }
